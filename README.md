@@ -25,20 +25,20 @@
 
 <h2 id="part-iii">Описание</h2>
 
-<h3 id="#part-v">Операции с одним флагом</h3>
+<h3 id="part-v">Операции с одним флагом</h3>
 GET_BIT(flags, n)
 GET_BIT_BOOL(flags, n)
 SET_BIT(flags, n)
 CLEAR_BIT(flags, n)
 TOGGLE_BIT(flags, n)
 
-<h3 id="#part-vv">Создание маски</h3>
+<h3 id="part-vv">Создание маски</h3>
 MASK_FROM_BITS(...)
 MERGE_MASKS(...)
 CROSS_MASKS(...)
 INVERSE_FLAGS(flags)
 
-<h3 id="#part-vvv">Операции по маске</h3>
+<h3 id="part-vvv">Операции по маске</h3>
 GET_BITMASK_OR(flags, mask)
 GET_BITMASK_OR_BOOL(flags, mask)
 GET_BITMASK_AND(flags, mask)
